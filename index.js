@@ -39,8 +39,37 @@ const HourPicker = ({
     );
 
     useEffect(() => {
-        (currentHour)
-    })
+        (currentHour >= 0 && currentHour <= 12)
+            ?
+            setHour(currentHour)
+            :
+            setHour(0)
+    }, [currentHour])
+
+    useEffect(() => {
+        (currentMinutes >= 0 && currentMinutes <= 59)
+            ?
+            setMinutes(currentMinutes)
+            :
+            setMinutes(0)
+    }, [currentMinutes])
+
+    useEffect(() => {
+        (currentFormat >= 0 && currentFormat <= 1)
+            ? (hour == 12)
+                ? setFormat(1)
+                : (hour == 0)
+                    ? setFormat(0)
+                    : setFormat(currentFormat)
+            :
+            (hour >= 0 && hour <= 12)
+                ? (hour == 12)
+                    ? setFormat(1)
+                    : (hour == 0)
+                        ? setFormat(0)
+                        : setFormat(currentFormat)
+                : setFormat(0)
+    }, [currentFormat]);
 
     useEffect(() => {
         if (hour == 0 && format == 1) {
@@ -51,7 +80,7 @@ const HourPicker = ({
             setFormat(1);
         }
     }, [hour, format])
-   
+
     return (
         <View>
             <View style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>

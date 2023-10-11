@@ -15,8 +15,7 @@ const RadioButton = ({ currentValue, comparisonValue, text, action, primaryColor
                         [styles.defaultRadioButtonText, { color: primaryColor }, { ...radioButtonText }]
                         :
                         [styles.defaultRadioButtonText, { color: primaryColor }]
-                }>{text}
-                </Text>
+                }>{text}</Text>
             </View>
         </TouchableOpacity>
     );
