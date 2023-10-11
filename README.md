@@ -1,6 +1,6 @@
 
 
-# react-native-time-picker
+# react-native-spk-time-picker
 
 
 The component is a time selector.
@@ -10,22 +10,22 @@ Allows you to select: hour, minutes and format (AM/PM). and get those selected v
 
 To install use the following commands:
 ```bash
-npm install react-native-time-picker
+npm install react-native-spk-time-picker
 ````
 
 ```bash
-yarn add react-native-time-picker
+yarn add react-native-spk-time-picker
 ````
 
 
 ## Simple Picker Component
 
-![Simple Ticket](./assets/simple.gif)
+![Simple Ticket](https://github.com/rodrigomspk/react-native-spk-time-picker/blob/main/assets/simple.gif)
 
 ### Simple Usage
 
 ```javascript
-import HourPicker from react-native-time-picker;
+import HourPicker from react-native-spk-time-picker;
 
 export default function App() {
  return (
@@ -50,13 +50,12 @@ const styles = StyleSheet.create({
 
 ## Custom Time Picker Component
 
-![Avatar Ticket](./assets/custom.gif)
-
+![Avatar Ticket](https://github.com/rodrigomspk/react-native-spk-time-picker/blob/main/assets/custom.gif)
 
 ### Custom Usage
 
 ```javascript
-import HourPicker from react-native-time-picker;
+import HourPicker from react-native-spk-time-picker;
 
 export default function App() {
  return (

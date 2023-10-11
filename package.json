@@ -1,5 +1,5 @@
 {
-  "name": "react-native-time-picker",
+  "name": "react-native-spk-time-picker",
   "version": "1.0.0",
   "description": "Time selection component",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodrigomspk/react-native-time-picker.git"
+    "url": "git+https://github.com/rodrigomspk/react-native-spk-time-picker.git"
   },
   "keywords": [
     "time",
@@ -24,8 +24,8 @@
     "react-native": "0.72.5"
   },
   "bugs": {
-    "url": "https://github.com/rodrigomspk/react-native-time-picker/issues"
+    "url": "https://github.com/rodrigomspk/react-native-spk-time-picker/issues"
   },
-  "homepage": "https://github.com/rodrigomspk/react-native-time-picker#readme",
+  "homepage": "https://github.com/rodrigomspk/react-native-spk-time-picker#readme",
   "private": false
 }
