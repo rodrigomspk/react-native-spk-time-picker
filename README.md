@@ -25,12 +25,12 @@ yarn add react-native-spk-time-picker
 ### Simple Usage
 
 ```javascript
-import HourPicker from react-native-spk-time-picker;
+import TimePicker from react-native-spk-time-picker;
 
 export default function App() {
  return (
     <View style={styles.container}>
-      <HourPicker
+      <TimePicker
         getTime={(values) => { console.log(values) }}
       />      
     </View >
@@ -55,12 +55,12 @@ const styles = StyleSheet.create({
 ### Custom Usage
 
 ```javascript
-import HourPicker from react-native-spk-time-picker;
+import TimePicker from react-native-spk-time-picker;
 
 export default function App() {
  return (
     <View style={styles.container}>
-      <HourPicker
+      <TimePicker
         currentHour={12}
         currentMinutes={6}
         currentFormat={1}

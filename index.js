@@ -4,7 +4,7 @@ import IncrementDecrementButton from './components/IncrementDecrementButton';
 import RadioButton from './components/RadioButton';
 
 
-const HourPicker = ({
+const TimePicker = ({
     currentHour = 0,
     currentMinutes = 0,
     currentFormat = 0,
@@ -164,4 +164,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default HourPicker;
+export default TimePicker;

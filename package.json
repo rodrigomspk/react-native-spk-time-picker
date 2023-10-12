@@ -1,6 +1,6 @@
 {
   "name": "react-native-spk-time-picker",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Time selection component",
   "main": "index.js",
   "scripts": {
@@ -18,11 +18,7 @@
     "hour"
   ],
   "author": "Rodrigo Manzano",
-  "license": "ISC",
-  "peerDependencies": {
-    "react": "18.2.0",
-    "react-native": "0.72.5"
-  },
+  "license": "ISC", 
   "bugs": {
     "url": "https://github.com/rodrigomspk/react-native-spk-time-picker/issues"
   },
