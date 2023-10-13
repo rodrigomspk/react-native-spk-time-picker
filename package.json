@@ -1,6 +1,6 @@
 {
   "name": "react-native-spk-time-picker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Time selection component",
   "main": "index.js",
   "scripts": {

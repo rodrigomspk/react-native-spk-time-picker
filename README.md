@@ -20,7 +20,7 @@ yarn add react-native-spk-time-picker
 
 ## Simple Picker Component
 
-![Simple Ticket](https://github.com/rodrigomspk/react-native-spk-time-picker/blob/main/assets/simple.gif)
+<div style="text-align:center"><img src="https://github.com/rodrigomspk/react-native-spk-time-picker/blob/main/assets/simple.gif" alt="Avatar Ticket" height="600" style="border: 2px solid #000;"></div>
 
 ### Simple Usage
 
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 
 ## Custom Time Picker Component
 
-![Avatar Ticket](https://github.com/rodrigomspk/react-native-spk-time-picker/blob/main/assets/custom.gif)
+<div style="text-align:center"><img src="https://github.com/rodrigomspk/react-native-spk-time-picker/blob/main/assets/custom.gif" alt="Avatar Ticket" height="600" style="border: 2px solid #000;"></div>
 
 ### Custom Usage
 
